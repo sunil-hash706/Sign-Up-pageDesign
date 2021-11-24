@@ -16,14 +16,19 @@ body{
     width: 220px;
     margin: auto;
     line-height: 1.5em;
-    background-color: rgba(0, 54, 231, 0.5);
+    background-color: rgba(40, 40, 41, 0.5);
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(185, 189, 185);
+    font-family: 'Courier New', Courier, monospace;
 }
 form{
     display: flex;
     flex-direction: column;
 }
 input{
-    margin: 10px;
+    margin: 3px;
 }
 .btn{
     /* height: 30px; */
@@ -43,7 +48,7 @@ input{
 #shortPassword{
     position: relative;
     top: -10px;
-    font-size: 10px;
+    font-size: 13px;
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
@@ -58,7 +63,7 @@ input{
 #noName{
     position: relative;
     top: -10px;
-    font-size: 10px;
+    font-size: 13px;
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
@@ -67,7 +72,7 @@ input{
 #noEmail{
     position: relative;
     top: -10px;
-    font-size: 10px;
+    font-size: 13px;
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
